@@ -1,0 +1,161 @@
+.con-header{
+    
+    display: block;
+    box-shadow: 8px 20px 80px rgba(0, 0, 0, 0.1);
+    
+    text-align: center;
+    
+    
+}
+.Message{
+    width: 20%;
+    height:100%;
+    /* border-radius: 20px; */
+padding: 50px;
+margin: 15px;
+
+}
+.fname{
+    width: 20%;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+}
+.lname{
+    width: 20%;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.email{
+    width: 20%;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.sender{
+    width: 30%;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 10px;
+    background-color: green;
+    border: none;
+}
+
+
+.footer-header{
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0;
+    text-decoration: none;
+}
+.footer-sub{
+margin: 40px;
+}
+.footer-text{
+     max-width: 100px; /*Set a max width for the text */
+    font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+         margin-bottom: 60%; 
+         
+}
+.footer-txt{
+    /* max-width: 10000px; Set a max width for the text */
+    font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        margin-bottom: 40%;
+}
+.footer-links a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 80%;
+    color: black;
+  
+}
+
+
+@media (max-width: 768px) {
+
+    .con-header{
+    
+        display: block;
+        box-shadow: 8px 20px 80px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        text-align: center;
+        
+    }
+    .Message{
+        width: 35%;
+        max-height: 30rem;
+        border-radius: 20px;
+     padding: 50px;
+    margin: 10px;
+    
+    }
+    .fname{
+        width: 30%;
+        
+        border-radius: 20px;
+        padding: 10px;
+        margin: 5px;
+    }
+    .lname{
+        width: 30%;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .email{
+        width: 30%;
+        border-radius: 20px;
+        padding: 15px;
+        margin: 15px;
+    }
+    
+    .sender{
+        width: 35%;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 10px;
+        background-color: green;
+        border: none;
+    }
+
+    .footer-header {
+        display: flex;
+    }
+
+    .rita-pics{
+        max-width: 150px;
+        /* margin-bottom: ; */
+        
+    }
+    .footer-text{
+        display: flex;
+        font-size: 15px;
+    }
+    .footer-txt{
+        /* display: flex; */
+        font-size: 10px;
+    }
+    
+    .footer-txt a {
+        display: flex;
+        margin: 5px 0;
+    }
+
+    .footer-sub {
+        text-align: center;
+    }
+    .footer-text a{
+        text-decoration: none;
+        list-style-type: none;
+    }
+}
+
+
+
+

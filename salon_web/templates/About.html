@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static "style2.css" %}">
+    </head>
+    <body>
+        <div class='header'>
+        <h1>ABOUT US</h1>
+   
+        <div class='about-header'>
+      <a href='http://127.0.0.1:8000/'><span>HOME</span></a>
+        </div>
+</div>
+    <p>about us</p>
+    <div class='text-header'>
+    <div class='text'>
+    <p>Rita Salon, a sanctuary of beauty, relaxation, and exceptional service. With a passion for enhancing natural beauty and a commitment to providing personalized, high-quality treatments, Rita Salon has become a trusted destination for clients seeking a rejuvenating and transformative salon experience.
+
+         Rita Salon, We Believe That Beauty Is Not Just Skin Deep; It’s About Feeling Confident, Refreshed, And Pampered. Our Team Of Highly Trained Professionals Is Dedicated To Understanding Your Unique Needs And Delivering Services Tailored To Bring Out The Best Version Of You. Whether You're Coming In For a Quick Touch-up Or a Full Makeover, Our Goal Is To Ensure That Every Client Leaves Feeling Their Absolute Best.</p>
+        <div class='image-text'>
+            <img src="{% static "lady2.jpg" %}" alt="Image 1">
+        </div>
+    </div>
+</div>
+    
+        <p>WE STRIVE TO ENHANCE YOUR NATURAL BEAUTY WITH EVERY VIST.ANYTIME,ANYDAY.</p>
+   
+    <div class='text2'>
+        <h4>At Rita Salon, we are committed to offering an exceptional, personalized beauty experience with a focus on the latest trends, advanced techniques, and the highest standard of service. Whether it’s your first visit or you’re a long-time client, we look forward to make every moment you spend with us a memorable one.
+
+            Join us at Rita Salon and discover why so many clients trust us with their beauty needs. Your beauty, your confidence, and your satisfaction are our top priorities.</h4>
+        </div>
+
+
+        <footer>
+            <div class='footer-header'>
+                <div class='footer-sub'>
+                    <img src="{% static "rita-pic.jpg" %}" alt="image2" class='rita-pics'>
+                </div>
+                {% comment %} <div class='footer-text'>
+                    <p>RitaSalon</p>
+                </div> {% endcomment %}
+                <div id='location'></div>
+                <div class='footer-txt'>
+                    <p>ADDRESS</p>
+                    <p>29 ThOMAS UDOEKONG STREET, ATAN OFFOT UYO, AKWAIBOM STATE, NIGERIA. </p>
+                    <h4>Phone</h4>
+                    <a href='tel:+2348084874608'>(+234)808|487|4608</a>
+                    <h4>E-mail</h4>
+                    <p><a href='mailto:ritaandem@gmail.com'>ritaandem@gmail.com</a></p>
+                    <a href='#' class='social-icons'><i class="fab fa-whatsapp"></i></a>
+                    <a href='#' class='social-icons'><i class="fab fa-facebook-f"></i></a>
+                    <a href='http://127.0.0.1:8000/about'>ABOUT US</a>
+        <a href='#service'>SERVICE</a>
+        <a href='#location'>LOCATION</a>
+        <a href='#work'>OUR WORK</a>
+        <a href='http://127.0.0.1:8000/sender'>CONTACT</a>
+        <div class='date' >
+            {% comment %} <span id='year'></span> {% endcomment %}
+         
+            {% comment %} © Rita Salon.All Rights Reserved. Made With <i class="fas fa-heart"> {% endcomment %}
+            </div>
+            <p id='year'>  © <span id='current-year'></span>  Rita Salon.All Rights Reserved. Made With <i class="fas fa-heart"></i>  By <a href='https://portfoilo-370i.onrender.com/'>Ukpono Andem </a> 
+            
+            </p>
+                </div>
+            
+        </footer>
+        
+        
+
+        
+        
+        {% comment %} <script src="{% static "scripts.js" %}"></script> {% endcomment %}
+    </body>
+</html>

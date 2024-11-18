@@ -1,0 +1,160 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+
+    
+}
+.header{
+    background-color: #9254F5;
+    text-align: center;
+    margin: 0;
+
+}
+.header h1{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    
+}
+.about-header{
+    margin: 40px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.about-header a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: black;
+}
+.about-header span{
+    text-decoration: underline;
+
+}
+.about-header span :hover{
+    color: red;
+}
+.text{
+    
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+.image-text img {
+    max-width: 800px; /* Make sure the image doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    
+}
+
+
+.footer-header{
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0;
+    text-decoration: none;
+}
+.footer-sub{
+margin: 40px;
+}
+.footer-text{
+     max-width: 100px; /*Set a max width for the text */
+    font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+         margin-bottom: 60%; 
+         
+}
+.footer-txt{
+    /* max-width: 10000px; Set a max width for the text */
+    font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        margin-bottom: 40%;
+}
+.footer-links a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 80%;
+    color: black;
+  
+}
+
+@media (max-width: 768px) {
+/* 
+    .header{
+        
+    } */
+    .header h1{
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0;
+    }
+    .about-header{
+        
+            margin: 20px;
+
+    }
+    .about-header a{
+        text-decoration: none;
+     
+        font-size: 20px;
+        font-weight: lighter;
+        color: black;
+    }
+    .about-header span{
+        text-decoration: underline;
+        color:blue
+    }
+    .text{
+        
+        font-size: 15px;
+        font-family:'Courier New', Courier, monospace;
+        max-width: 400px;
+    }
+    .text-header {
+        display: flex;
+        align-items: center; /* Vertically center the content */
+        justify-content: space-between;
+        gap: 10px; /* Add space between the text and image */
+    }
+    .image-text img {
+        max-width: 400px; /* Make sure the image doesn't overflow */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .footer-header {
+        display: flex;
+    }
+
+    .rita-pics{
+        max-width: 150px;
+        /* margin-bottom: ; */
+        
+    }
+    .footer-text{
+        display: flex;
+        font-size: 15px;
+    }
+    .footer-txt{
+        /* display: flex; */
+        font-size: 10px;
+    }
+    
+    .footer-txt a {
+        display: flex;
+        margin: 5px 0;
+    }
+
+    .footer-sub {
+        text-align: center;
+    }
+    .footer-text a{
+        text-decoration: none;
+        list-style-type: none;
+    }
+}
+

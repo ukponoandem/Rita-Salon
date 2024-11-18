@@ -1,0 +1,213 @@
+ {% load static %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rita Salon</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static "style.css" %}">
+        <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+    <body>
+       
+        <div class='Header'>
+            <div class="menu-icon" id="menu-icon">
+                &#9776; <!-- This is the hamburger icon -->
+            </div>
+            <div class='nav-header' id="nav-links">
+                <div class='sub-header'> 
+                    <p>(+234) 814|260|1942</p>
+                    <div class='main-header'>
+                        <a href='https://web.facebook.com/profile.php?id=100089205093571' class='social-icon'><i class="fab fa-facebook-f"></i></a>
+                        <a href='https://www.messenger.com/' class='social-icon'><i class="fab fa-facebook-messenger"></i></a>
+                        <a href='https://wa.me/+2348142601942' class='social-icon'><i class="fab fa-whatsapp"></i></a>
+                        <a href='#' class='social-icon'><i class="fab fa-tiktok"></i></a>
+                        <div class='icons'><i class="fa-regular fa-xmark-large"></i></div>
+                    </div>
+                </div>
+            </div>
+            <nav class='navbar'>
+                <div class='logo'>Rita Salon</div>
+                <ul class="nav-links" id="nav-links-list">
+                    <li><a href='http://127.0.0.1:8000/about'>About</a></li>
+                    <li><a href='#service'>Service</a></li>
+                    <li><a href='#work'>Our Work</a></li>
+                    <li><a href='http://127.0.0.1:8000/sender'>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+<div class='carousel-header'>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="{% static "beauty1.jpg" %}" alt="Image 1">
+                <img src="{% static "beauty2.jpg" %}"alt="Image 2">
+                <img src="{% static "beauty3.jpg" %}"alt="Image 3">
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+
+    <div class='about-header'>
+<div class='about-sub'>
+    <img src="{% static "rita.jpg" %}"alt="Image 4" class='rita-image'>
+</div>
+<div class='rita-text'>
+<h1>WELCOME TO RITA SALON </h1>
+<p> Rita Salon, We Believe That Beauty Is a Personal Journey. Our Team Of Skilled Professionals Is Dedicated To Provide You With a Relaxing and Rejuvenating Experience. Whether You’re Looking For a Fresh Manicure Or Pedicure, a Stunning Color transformation,  we have the perfect solution tailored just for you.
+
+    Step into our welcoming atmosphere, where your comfort and satisfaction are our top priorities. Let us help you look and feel your best. We can’t wait to pamper you! </p>
+</div>
+    </div>
+       
+<div id='service'></div>
+    <div class='service-sub'>
+        <p>services</p>
+        <h2>What We Offer</h2>
+    </div>
+
+<div class='service-header'>
+<div class='service-main'>
+<img src="{% static "hair design.jpg" %}" alt="image2" class='images'>
+<p>Hair-Design</p>
+</div>
+
+<div class='service-main'>
+    <img src="{% static "men hair.jpg" %}" alt="image2" class='images'>
+    <p>Hair-Design For Men</p>
+    </div>
+   
+    <div class='service-main'>
+        <img src="{% static "hair coloring.jpg" %}" alt="image2" class='images'>
+        <p>Hair-coloring</p>
+        </div>  
+
+        <div class='service-main'>
+            <img src="{% static "manicure1.jpg" %}" alt="image2" class='images'>
+            <p>Manicure</p>
+        </div>  
+
+        <div class='service-main'>
+            <img src="{% static "pedicure.jpg" %}" alt="image2" class='images'>
+        <p>Penicure</p>
+    </div>
+    </div>
+
+    
+<div id='work'></div>
+<div class='work-header'>
+    <h2>Our Work</h2>
+<div class='work-sub'>
+<div class='work-images'>
+    <img src="{% static "work1.jpg" %}" alt="Image 1">
+    <img src="{% static "work2.jpg" %}" alt="Image 1">
+    <img src="{% static "hair making3.jpg" %}" alt="Image 1">
+    <img src="{% static "lady3.webp" %}" alt="Image 1">
+    <img src="{% static "work3.jpg" %}" alt="Image 1">
+    <img src="{% static "work4.jpg" %}" alt="Image 1">
+    <img src="{% static "work5.jpg" %}" alt="Image 1">
+    <img src="{% static "work6.jpg" %}" alt="Image 1">
+    <img src="{% static "children hair.jpg" %}" alt="Image 1">
+    <img src="{% static "womenhair0.jpg" %}" alt="Image 1">
+    <img src="{% static "women hair 1.jpg" %}" alt="Image 1">
+    <img src="{% static "children3.jpg" %}" alt="Image 
+    1">
+
+    <img src="{% static "hair-design2.jpg" %}" alt="Image 1">
+
+    <img src="{% static "men2.jpg" %}" alt="Image 1">
+    <img src="{% static "children hair 2.jpg" %}" alt="Image 1">
+    <img src="{% static "hair5.jpg" %}" alt="Image 1">
+    <img src="{% static "hair3.jpg" %}" alt="Image 1">
+
+    <img src="{% static "hair making 4.jpg" %}" alt="Image 1">
+    <img src="{% static "hair making3.jpg" %}" alt="Image 1">
+
+    <img src="{% static "hair2.jpg" %}" alt="Image 1">
+    <img src="{% static "hair making.jpg" %}" alt="Image 1">
+    <img src="{% static "toc1.jpg" %}" alt="Image 1">
+    <img src="{% static "men4.jpg" %}" alt="Image 1">
+
+
+    <img src="{% static "women hair.png" %}" alt="Image 1">
+    <img src="{% static "women hair4.jpg" %}" alt="Image 1">
+
+    <img src="{% static "hair-coloring.jpg" %}" alt="Image 1">
+    <img src="{% static "lady1.jpg" %}" alt="Image 1">
+    
+    <img src="{% static "men5.jpg" %}" alt="Image 1">
+    <img src="{% static "women hair 3.jpg" %}" alt="Image 1">
+    <img src="{% static "men hair 2.webp" %}" alt="Image 1">
+    <img src="{% static "hair6.jpg" %}" alt="Image 1"/>
+    <img src="{% static "men4.jpg" %}" alt="Image 1">
+    <h1>MORE...</h1>
+</div>
+<button class="previous" onclick="move(-1)">&#10094;</button>
+<button class="next-steps" onclick="move(1)">&#10095;</button>
+</div>
+</div>
+
+<div class='working-hour'>
+    <p>How we work</p>
+    <h1>WORKING HOUR</h1>
+
+    <p>We Open Everyday From The Very Morning, From Monday-Sunday,Home Service Is Also Requirer. </p>
+    <p>If You Want To Get The Best Beauty Services,You Can Book a Visit,Cuz Your Beauty Is Our Passion!,  </p>
+    <p>Rita Salon Is The Best for you. Feel Free to give us a call Or Contact Us,We Will Love To Hear From You.</p>
+    <p> </p>
+
+    <p>Mondays_____Fridays: 8:00am-9:00pm</p>
+    <p>Saturdays: 9:00am-10:00pm</p>
+    <p>Sundays: 3:00pm-8:00pm</p>
+    <p>WE WELCOME YOU EVERYDAY</p>
+    
+</div>  
+
+
+<footer>
+    <div class='footer-header'>
+        <div class='footer-sub'>
+            <img src="{% static "rita-pic.jpg" %}" alt="image2" class='rita-pics'>
+        </div>
+        {% comment %} <div class='footer-text'>
+            <p>RitaSalon</p>
+        </div> {% endcomment %}
+        <div id='location'></div>
+        <div class='footer-txt'>
+            <p>ADDRESS</p>
+            <p>29 ThOMAS UDOEKONG STREET, ATAN OFFOT UYO, AKWAIBOM STATE, NIGERIA. </p>
+            <h4>Phone</h4>
+            <a href='tel:+2348084874608'>(+234)808|487|4608</a>
+            <h4>E-mail</h4>
+            <p><a href='mailto:ritaandem@gmail.com'>ritaandem@gmail.com</a></p>
+            <a href='#' class='social-icons'><i class="fab fa-whatsapp"></i></a>
+            <a href='#' class='social-icons'><i class="fab fa-facebook-f"></i></a>
+            <a href='http://127.0.0.1:8000/about'>ABOUT US</a>
+<a href='#service'>SERVICE</a>
+<a href='#location'>LOCATION</a>
+<a href='#work'>OUR WORK</a>
+<a href='http://127.0.0.1:8000/sender'>CONTACT</a>
+<div class='date' >
+    {% comment %} <span id='year'></span> {% endcomment %}
+ 
+    {% comment %} © Rita Salon.All Rights Reserved. Made With <i class="fas fa-heart"> {% endcomment %}
+    </div>
+    <p id='year'>  © <span id='current-year'></span>  Rita Salon.All Rights Reserved. Made With <i class="fas fa-heart"></i>  By <a href='https://portfoilo-370i.onrender.com/'>Ukpono Andem </a> 
+    
+    </p>
+        </div>
+    
+</footer>
+
+
+
+
+        <script src="{% static "scripts.js" %}"></script> 
+    </body>
+</html>
