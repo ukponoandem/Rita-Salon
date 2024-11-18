@@ -15,7 +15,7 @@
         <h1>ABOUT US</h1>
    
         <div class='about-header'>
-      <a href='http://127.0.0.1:8000/'><span>HOME</span></a>
+      <a href="{% url '' %}"><span>HOME</span></a>
         </div>
 </div>
     <p>about us</p>
@@ -57,11 +57,11 @@
                     <p><a href='mailto:ritaandem@gmail.com'>ritaandem@gmail.com</a></p>
                     <a href='#' class='social-icons'><i class="fab fa-whatsapp"></i></a>
                     <a href='#' class='social-icons'><i class="fab fa-facebook-f"></i></a>
-                    <a href='http://127.0.0.1:8000/about'>ABOUT US</a>
+                    <a href="{% url 'about' %}">ABOUT US</a>
         <a href='#service'>SERVICE</a>
         <a href='#location'>LOCATION</a>
         <a href='#work'>OUR WORK</a>
-        <a href='http://127.0.0.1:8000/sender'>CONTACT</a>
+        <a href="{% url 'email_sender' %}">CONTACT</a>
         <div class='date' >
             {% comment %} <span id='year'></span> {% endcomment %}
          
