@@ -5,7 +5,7 @@ from django.shortcuts import render,redirect
 def Home(request):
     return render(request,'Home.html')
 
-def about(request):
+def about_rita(request):
     return render(request,'About.html')
 
 
