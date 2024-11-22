@@ -15,6 +15,9 @@
        <h3>YOU'RE ALWAYS WELCOME</h3>
        <a href="{% url 'Home' %}">Home</a>
        <div class='con-header'>
+        <div class='con-image'>
+            <img src="{% static "rita.jpg" %}"alt="Image 1" class='rita-image'>
+        </div>
 <form method='POST'>
  {% csrf_token %}
  <P>Book an appointment via form or Phone</P>
