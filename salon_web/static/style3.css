@@ -128,7 +128,7 @@ margin: 40px;
         border: none;
     }
     .con-image img{
-        min-width: 80px;
+        max-width: 100px;
     }
 
     .footer-header {
