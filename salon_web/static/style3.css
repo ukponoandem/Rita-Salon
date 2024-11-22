@@ -9,38 +9,38 @@
 }
 .con-image img{
 
-max-width: 500px;
+max-width: 400px;
 }
 .Message{
-    width: 60%;
-    height:40%;
+    width: 80%;
+    height:20%;
     /* border-radius: 20px; */
 padding: 50px;
 margin: 15px;
 
 }
 .fname{
-    width: 40%;
+    width: 70%;
     gap: 20px;
     border-radius: 20px;
     padding: 15px;
     margin: 10px;
 }
 .lname{
-    width: 40%;
+    width: 70%;
     margin: 15px;
     border-radius: 20px;
     padding: 15px;
 }
 .email{
-    width: 40%;
+    width: 70%;
     border-radius: 20px;
     padding: 15px;
     margin: 15px;
 }
 
 .sender{
-    width: 50%;
+    width: 80%;
     border-radius: 20px;
     margin: 15px;
     padding: 10px;
@@ -92,35 +92,35 @@ margin: 40px;
         
     }
     .Message{
-        width: 35%;
-        max-height: 30rem;
+        width: 55%;
+        max-height: 10rem;
         border-radius: 20px;
      padding: 50px;
     margin: 10px;
     
     }
     .fname{
-        width: 30%;
+        width: 50%;
         
         border-radius: 20px;
         padding: 10px;
         margin: 5px;
     }
     .lname{
-        width: 30%;
+        width: 50%;
         margin: 10px;
         border-radius: 20px;
         padding: 10px;
     }
     .email{
-        width: 30%;
+        width: 50%;
         border-radius: 20px;
         padding: 15px;
         margin: 15px;
     }
     
     .sender{
-        width: 35%;
+        width: 55%;
         border-radius: 20px;
         margin: 10px;
         padding: 10px;
@@ -128,7 +128,7 @@ margin: 40px;
         border: none;
     }
     .con-image img{
-        min-width: 200px;
+        min-width: 100px;
     }
 
     .footer-header {
