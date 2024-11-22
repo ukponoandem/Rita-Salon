@@ -13,7 +13,7 @@ max-width: 400px;
 }
 .Message{
     width: 80%;
-    height:20%;
+    height:10%;
     /* border-radius: 20px; */
 padding: 50px;
 margin: 15px;
@@ -53,7 +53,7 @@ margin: 15px;
     display: flex;
     align-items: center;
     max-width: 1000px;
-    margin: 0;
+    margin: 10%;
     text-decoration: none;
 }
 .footer-sub{
@@ -92,35 +92,35 @@ margin: 40px;
         
     }
     .Message{
-        width: 55%;
-        max-height: 10rem;
+        width: 75%;
+        max-height: 3rem;
         border-radius: 20px;
      padding: 50px;
     margin: 10px;
     
     }
     .fname{
-        width: 50%;
+        width: 70%;
         
         border-radius: 20px;
         padding: 10px;
         margin: 5px;
     }
     .lname{
-        width: 50%;
+        width: 70%;
         margin: 10px;
         border-radius: 20px;
         padding: 10px;
     }
     .email{
-        width: 50%;
+        width: 70%;
         border-radius: 20px;
         padding: 15px;
         margin: 15px;
     }
     
     .sender{
-        width: 55%;
+        width: 75%;
         border-radius: 20px;
         margin: 10px;
         padding: 10px;
@@ -128,7 +128,7 @@ margin: 40px;
         border: none;
     }
     .con-image img{
-        min-width: 100px;
+        min-width: 80px;
     }
 
     .footer-header {
