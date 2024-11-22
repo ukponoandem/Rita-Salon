@@ -7,10 +7,9 @@
     display: flex;
     
 }
-.con-image{
-display: flex;
+.con-image img{
 
-
+max-width: 300px;
 }
 .Message{
     width: 20%;
