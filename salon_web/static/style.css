@@ -158,7 +158,8 @@ body{
         text-align: center;
      } 
      .logo{
-        display: none;
+        display: flex;
+        font-size: 20px;
      }
 
 }
@@ -220,9 +221,7 @@ max-width: 100%;
 
 }
 .rita-image{
-    max-width: 200px;
-     height: auto; 
-     border-radius: 50%;
+ display: none;
 }
 .rita-text {
     max-width: 800px; /* Set a max width for the text */
