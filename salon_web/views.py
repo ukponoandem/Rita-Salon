@@ -21,7 +21,7 @@ def email_sender(request):
         message = request.POST.get('message')
         Email = request.POST.get('Email')
         
-        print(f"Hi {Firstname}, with subject: {Lastname} send  a message {message}")
+        print(f"Hi {Firstname}, with subject: {Lastname}  send  a message {message} and email:{Email} ")
         
         try:
             # Prepare subject and body for the email
