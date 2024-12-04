@@ -385,6 +385,9 @@ margin: 40px;
     .rita-text{
         font-size: 15px;
           margin: 0;
+          padding: 0;
+          width: 100%;
+          box-sizing: border-box;
     }
     .social-icons{
         font-size: 30px;
